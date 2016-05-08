@@ -1,4 +1,4 @@
-# Google fonts switcher (react, redux, webpack)
+# Fonts switcher (react, redux, webpack)
 
 Specify a list of Google fonts to load, and then toggle between each from a menu.
 
