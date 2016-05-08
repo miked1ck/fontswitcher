@@ -1,0 +1,18 @@
+.Trigger {
+  cursor: pointer;
+  padding: 10px 13px;
+  border: none;
+  font-size: 23px;
+  border-radius: 5px;
+  background: @color_blue;
+  color: @color_white;
+  z-index: 200;
+
+  &:hover {
+    background: darken(@color_blue, 5%);
+  }
+
+  &.toggled {
+    background: lighten(@color_blue, 20%);
+  }
+}

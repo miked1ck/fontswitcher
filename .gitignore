@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+src/public/app.packed.js
+src/public/app.packed.css

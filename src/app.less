@@ -1,0 +1,58 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,form,label,table,caption,tbody,tfoot,thead,tr,th,td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+header, section, nav, footer, aside, article { display: block; }
+
+body {
+	background: #f8fafb;
+}
+
+[hidden] {
+	display: block;
+}
+
+
+// Parent switcher styles
+//////////////////////////////
+
+.switcher {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+
+	// namespaced here to only effect the switcher
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+
+// Colors
+//////////////////////////////
+
+@color_blue: hsla(220, 100%, 50%, 1);
+@color_gray: hsla(220, 30%, 90%, 1);
+@color_white: hsla(0, 100%, 100%, 1);
+@color_text: hsla(220, 10%, 50%, 1);
+
+
+// Levitation
+/////////////////////////////
+
+@elevation_100: 5px 5px 10px hsla(0, 0, 0, .07);
+@elevation_200: 5px 5px 15px hsla(0, 0, 0, .07);
+@elevation_300: 5px 5px 20px hsla(0, 0, 0, .07);
+@elevation_100: 5px 5px 25px hsla(0, 0, 0, .07);
+
+
+// Components
+/////////////////////////////
+
+@import "/components/Trigger/Trigger";
+@import "/components/Menu/Menu";
+@import "/components/Demo/Demo";

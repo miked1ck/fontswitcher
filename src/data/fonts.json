@@ -1,0 +1,29 @@
+{
+  "fonts": [
+    {
+      "name": "Roboto",
+      "css_name": "roboto",
+      "needs_loaded": true
+    },
+    {
+      "name": "Open Sans",
+      "css_name": "open sans",
+      "needs_loaded": true
+    },
+    {
+      "name": "Georgia",
+      "css_name": "georgia",
+      "needs_loaded": false
+    },
+    {
+      "name": "Helvetica",
+      "css_name": "helvetica neue",
+      "needs_loaded": false
+    },
+    {
+      "name": "Avenir",
+      "css_name": "avenir",
+      "needs_loaded": false
+    }
+  ]
+}
